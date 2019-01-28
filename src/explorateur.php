@@ -38,9 +38,10 @@ foreach ($files as $key => $value)
 			?><tr>
 			<td><i class="fas fa-file"></i></td>
 			<td><a href="/"><?php echo $value;?></a></td>
-			<form method="POST" action="/">
+			<td><form method="POST" action="/">
 				<button class="button is-light is-small" name="delete" value="<?php echo $value; ?>" type="submit"><i class="fas fa-trash-alt"></i></button>
 			</form>
+			</td>
 			</tr>
 			<?php
 		}	
