@@ -52,7 +52,6 @@
               </div>
             </div>
           </form>
-		  <?php if(isset($_POST)){ include('../src/create.php'); } ?>
         </div>
       </div>
     </div>
