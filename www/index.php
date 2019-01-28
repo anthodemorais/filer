@@ -15,7 +15,7 @@
     <div class="columns">
       <div class="column">
         <table class="table is-fullwidth is-hoverable">
-			<?php include('../src/explorateur.php'); ?>
+			<?php include('./list_files.php'); ?>
 		</table>
         </div>
         <div class="column">
